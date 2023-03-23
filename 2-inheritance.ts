@@ -30,3 +30,5 @@ class Employees extends Person{
 
 var emp2 = new Employees(123, "Amit");
 emp2.display();
+
+export {};

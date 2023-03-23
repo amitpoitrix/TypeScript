@@ -24,3 +24,5 @@ class Employee{
 
 var emp1 = new Employee(123, "Amit", 223);
 emp1.display();
+
+export {}
