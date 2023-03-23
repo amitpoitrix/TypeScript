@@ -1,4 +1,4 @@
-#TypeScript Docs:
+# TypeScript Docs:
 
 Step 1 : Download and install node.js
 Download link: https://nodejs.org/en/download/
