@@ -2,7 +2,7 @@
 const User = {
     name: "amit",
     email: "amit@lco.dev",
-    isAvtive: true
+    isActive: true
 }
 
 

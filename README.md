@@ -1,4 +1,4 @@
-# TypeScript Docs:
+#TypeScript Docs:
 
 Step 1 : Download and install node.js
 Download link: https://nodejs.org/en/download/
@@ -23,3 +23,7 @@ Step6: Compilation
 
 Step7: Run JS program in console
  node fielname.js
+
+
+In order to create tsconfig.json file use below command:
+tsc --init

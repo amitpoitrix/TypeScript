@@ -9,3 +9,9 @@ var myUser = {
 };
 // Assigning values
 myUser.email = "h@gmail.com";
+var myCard = {
+    cvv: 123,
+    cardnumber: "123412341234",
+    cardDate: '12/03/97'
+};
+console.log('myCard: ', myCard);

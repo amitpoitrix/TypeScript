@@ -1,9 +1,9 @@
 type User = {
-    readonly _id: string;   // once assign we can't modify it later
-    name: string;
-    email: string;
-    isActive: boolean;
-    credcardDetails?: number;   // optional property
+    readonly _id: string,   // once assign we can't modify it later
+    name: string,
+    email: string,
+    isActive: boolean,
+    credcardDetails?: number,  // optional property
 }
 
 // creating variable with User type
@@ -31,5 +31,13 @@ type cardDate = {
 type cardDetails = cardNumber & cardDate & {
     cvv: number
 }
+
+let myCard: cardDetails = {
+    cvv: 123,
+    cardnumber: "123412341234",
+    cardDate: '12/03/97'
+}
+
+console.log('myCard: ', myCard);
 
 export{}
